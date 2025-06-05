@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--decirle a mi navegador que se adapte al tamaño de la pantalla-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="description" content="Hola soy angeles y estudio LIDts">
+        <meta property="og:tittle" content="portafolio |angeles">
+
+        <!-- datos que si se muestran-->
+        <title>portafolio |angeles</title>
+        <!-- imagen del icono de la pagina -->
+        <link rel="icon" type="image" href="/img/yo.jpg">
+
+        <style>
+            body{
+                background-color: rgba(0, 255, 255, 0.833);
+            }
+            ul{
+                color: red;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <!-- titulo (nav elementos de navegacion)-->
+            <h1>MI portafolio | Angeles Rodas</h1>
+            <!-- nav son los elemeentos de navegacion -->
+            <nav>
+                <a href="#experiencias">experiencias</a> |
+                <a href="#proyectos"> Proyectos</a> |
+                <a href="link" target="_blank" rel="noreferrer"> youtube</a>
+            </nav>
+
+        </header>
+
+        <main>
+            <p>mi nombre es <strong>Angeles Dayana Rodas Hernandez</strong> y actualmente <em>estudio una ingenieria</em> en desarrollo de software
+                me gusta el pollo
+            </p>
+
+            <h2 id="experiencias">Mis experiencias</h2>
+            
+            <ul>
+                <li >Electricidad</li>
+                <li>linux</li>
+                <li>HOLA MUNDO</li>
+            </ul>
+
+
+            <a download href="/img/yo.jpg">
+                <button>Descargar</button>
+                </a>
+
+                <img 
+                style="border-radius: 12px;"
+                id="photo"
+                width="200px"
+                height="200px"
+                title="aqui se muestra angeles"
+                src="/img/yo.jpg" 
+                alt="aqui estuvo angeles">
+
+                <iframe width="560" height="315" src="https://versus.com/es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <h2 id="proyectos">Proyectos Realizados</h2>
+                
+                <aside>
+                    <header>
+                        <h3>Mis tecnologias favoritas</h3>
+                    </header>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>C</li>
+                    </ol>
+                </aside>
+
+                <article>
+                    <header>
+                        <h4>Aplicacion web con HTml</h4>
+                    </header>
+                    <p>realizando una aplicatibo para comparar</p>
+                    <footer>Tecnoloogias utilizadas: node.js, mysql, JavaScript</footer>
+                </article>
+
+                <article>
+                    <header>
+                        <!-- cambiar a imagen de login por ahora pondre la que ya tengo-->
+                        <img src="/img/yo.jpg" 
+                        style= width:100%;
+                        aspect-radio=16/9
+                        border-radius: 12px
+                        alt="login de una cafeteria">
+                        <h4>Aplicacion para una cafeteria</h4>
+                    </header>
+                    <p>realizando una aplicatibo para una cafeteria</p>
+                    <footer>Tecnoloogias utilizadas: node.js, mysql, JavaScript</footer>
+                </article>
+
+                <section>
+                    <h2>Preguntas frecuentes</h2>
+                    <details open>
+                        <summary>Donede estudiaste</summary>
+                        <p>actualmente me encuentro estudiando la universidad en Chiapas</p>
+                    </details>
+                </section>
+                <br>
+
+                <section>
+                    <!-- -->
+                    <form method="post" action="/">
+                        <fieldset>
+                            <legend>Datos</legend> 
+                            <div>
+                                <label>nombre
+                                <input type="text" id="nombre" name="nombre" placeholder="angeles dayans rodas" required>
+                                </label>
+                            </div>
+                            <br>
+
+                            <label>email:
+                                <input type="email" placeholder="angeles.rodas53@unach.mx">
+                            </label>
+
+                        </fieldset>
+                        <fieldset>
+                            <legend>Datos adicionales</legend>
+                            <label>Numero telefonico
+                                <input type="tel" name="telefono" id="telefono" required pattern="[0-9]{10}">
+                            </label>
+                        </fieldset>
+
+                        <button>enviar</button>
+                    </form>
+
+                </section>
+
+
+
+        </main>
+
+        <footer>
+            copyright 2025 - derechos de autoa Angeles
+            <a href="mailto:angeles.rodas53@gmail.com"> enviame un correo </a>
+            <a href="tel: 923774627">Llamame</a>
+        </footer>
+
+    </body>
+
+</html>
+
